@@ -13,6 +13,7 @@ profile:
     <p>LG101, Chow Yei Ching Building</p>
     <p>Department of Computer Science</p>
     <p>The University of Hong Kong</p>
+    <p>Email: <a href="mailto:cslee@cs.hku.hk" target="_blank">cslee@cs.hku.hk</a>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

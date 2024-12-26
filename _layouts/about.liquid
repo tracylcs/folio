@@ -38,18 +38,20 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">
-    {{ content }}
-    </div>
+    <div>
+    <div class="clearfix">{{ content }}</div>
     {% if page.profile.more_info %}
     <div class="more-info">{{ page.profile.more_info }}</div>
     {% endif %}
-    
+    {% if page.profile.email %}
+    <div class="more-info"><a href="mailto:{{ page.profile.email }}" target="_blank">{{ page.profile.email }}</a></div>
+    {% endif %}
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
