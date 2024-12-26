@@ -1,1 +1,0 @@
-I am a fourth-year PhD student at the University of Hong Kong, where I am very fortunate to be supervised by [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/). I obtained my Bachelor degree in Computing and Data Analytics from the same university. My research interests are Online Algorithms and Fair Allocation.
