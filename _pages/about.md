@@ -6,7 +6,7 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: left
-  image: profile.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>LG101, Chow Yei Ching Building</p>
