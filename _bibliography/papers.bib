@@ -2,13 +2,9 @@
 ---
 
 @InProceedings{opinion-dynamics-hardness,
-author="Chan, T.-H. Hubert
-and Lee, Chui Shan",
-editor="Chen, Chi-Yeh
-and Hon, Wing-Kai
-and Hung, Ling-Ju
-and Lee, Chia-Wei",
-title="On the Hardness of Opinion Dynamics Optimization with L1-Budget on Varying Susceptibility to Persuasion",
+author={Chan, T.-H. Hubertand Lee, Chui Shan},
+editor={Chen, Chi-Yeh and Hon, Wing-Kai and Hung, Ling-Ju and Lee, Chia-Wei},
+title="On the Hardness of Opinion Dynamics Optimization with $$L_1$$-Budget on Varying Susceptibility to Persuasion",
 booktitle="Computing and Combinatorics",
 year="2021",
 publisher="Springer International Publishing",
@@ -22,24 +18,23 @@ this iterative process converges to some equilibrium opinion vector. Previous wo
 an efficient local search algorithm to solve the unbudgeted variant of the problem, for 
 which the goal is to modify the resistance of any number of agents (within some given range) 
 such that the sum of the equilibrium opinions is minimized. On the other hand, it was proved 
-that the L0-budgeted variant is NP-hard, where the L0-budget is a 
-restriction given upfront on the number of agents whose resistance may be modified.
-
+that the $$L0$$-budgeted variant is NP-hard, where the $$L0$$-budget is a 
+restriction given upfront on the number of agents whose resistance may be modified.\n
 Inspired by practical situations in which the effort to modify an agent's resistance 
-increases with the magnitude of the change, we propose the L1-budgeted variant, in which
-the L1-budget is a restriction on the sum of the magnitudes of the changes over all agents' 
-resistance parameters. In this work, we show that the L1-budgeted variant is NP-hard via a 
-reduction from vertex cover. However, contrary to the L0-budgeted variant, a very technical 
+increases with the magnitude of the change, we propose the $$L1$$-budgeted variant, in which
+the $$L1$$-budget is a restriction on the sum of the magnitudes of the changes over all agents' 
+resistance parameters. In this work, we show that the $$L1$$-budgeted variant is NP-hard via a 
+reduction from vertex cover. However, contrary to the $$L0$$-budgeted variant, a very technical 
 argument is needed to show that the optimal solution can be achieved by focusing the given 
-L1-budget on as small a number of agents as possible, as opposed to spreading the budget over 
+$$L1$$-budget on as small a number of agents as possible, as opposed to spreading the budget over 
 a large number of agents.",
 isbn="978-3-030-89543-3",
 arxiv={https://arxiv.org/abs/2105.04105}, 
+slides={../assets/slides/opinion-dynamics-hardness-cocoon2021.pptx}
 }
 
 @book{fair-allocation-book,
-author="Law, Ka Ho
-and Lee, Chui Shan",
+author={Law, Ka Ho and Lee, Chui Shan},
 title=" Mathematics of resolving disputes: Fairness in sharing [排難解紛的數學—公平分配]",
 year="2021",
 publisher = {Education Bureau of Hong Kong},
@@ -50,10 +45,32 @@ pdf = {../assets/pdf/fair-allocation-book.pdf}
 
 @misc{online-matching-SWOR,
       title={Online Matching Meets Sampling Without Replacement}, 
-      author={Zhiyi Huang and Chui Shan Lee and Jianqiao Lu and Xinkai Shu},
+      author={Huang, Zhiyi and Lee, Chui Shan and Lu, Jianqiao and Shu, Xinkai},
       year={2024},
       eprint={2410.06868},
       archivePrefix={arXiv},
       primaryClass={cs.DS},
+      abstract = "Sampling without replacement is a natural online rounding strategy for 
+      converting fractional bipartite matching into an integral one. In Online Bipartite 
+      Matching, we can use the Balance algorithm to fractionally match each online vertex, 
+      and then sample an unmatched offline neighbor with probability proportional to the 
+      fractional matching. In Online Stochastic Matching, we can take the solution to a 
+      linear program relaxation as a reference, and then match each online vertex to an 
+      unmatched offline neighbor with probability proportional to the fractional matching 
+      of the online vertex's type. On the one hand, we find empirical evidence that online 
+      matching algorithms based on sampling without replacement outperform existing algorithms. 
+      On the other hand, the literature offers little theoretical understanding of the power 
+      of sampling without replacement in online matching problems.\n
+      This paper fills the gap in the literature by giving the first non-trivial competitive 
+      analyses of sampling without replacement for online matching problems. In Online Stochastic 
+      Matching, we develop a potential function analysis framework to show that sampling without 
+      replacement is at least $$0.707$$-competitive. The new analysis framework further allows us to 
+      derandomize the algorithm to obtain the first polynomial-time deterministic algorithm that 
+      breaks the $$1-1/e$$ barrier. In Online Bipartite Matching, we show that sampling without 
+      replacement provides provable online correlated selection guarantees when the selection 
+      probabilities correspond to the fractional matching chosen by the Balance algorithm. 
+      As a result, we prove that sampling without replacement is at least $$0.513$$-competitive 
+      for Online Bipartite Matching.",
       arxiv={https://arxiv.org/abs/2410.06868}, 
+      slides={../assets/slides/online-matching-SWOR-wine2024.pptx}
 }

@@ -1,15 +1,19 @@
+"kaho":
+  - firstname: ["Ka Ho"]
+    url: https://hkumath.hku.hk/MathWWW/people.php?faculty.lawkaho
+
 "hubert":
-  - firstname: ["Hubert", "T.-H. Hubert", "T.-H. Hubert Chan"]
+  - firstname: ["Hubert", "T.-H. Hubert"]
     url: https://i.cs.hku.hk/~hubert/
 
 "jianqiao":
-  - firstname: ["Jianqiao", "Jianqiao Lu"]
+  - firstname: ["Jianqiao"]
     url: https://jianqiaolu.github.io/
 
 "xinkai":
-  - firstname: ["Xinkai", "Xinkai Shu"]
+  - firstname: ["Xinkai"]
     url: https://shuxk.github.io/
 
 "zhiyi":
-  - firstname: ["Zhiyi", "Zhiyi Huang"]
+  - firstname: ["Zhiyi"]
     url: https://i.cs.hku.hk/~zhiyi/
