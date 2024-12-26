@@ -38,7 +38,13 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">
+    {{ content }}
+    ------
+    {% if page.profile.more_info %}
+    <div class="more-info">{{ page.profile.more_info }}</div>
+    {% endif %}
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
