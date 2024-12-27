@@ -9,8 +9,8 @@ nav_order: 4
 
 
 <div class="spotlight-group">
-    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg">
-        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" />
+    <a class="spotlight" href="watercolor_1.png">
+        <img src="watercolor_1.png" />
     </a>
     <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg">
         <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" />
