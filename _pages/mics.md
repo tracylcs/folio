@@ -7,22 +7,27 @@ nav: true
 nav_order: 4
 ---
 
-In my leisure time, I find joy in painting. I invite you to explore my recent watercolor creations!
-
 
 <div class="spotlight-group">
-    <a class="spotlight" href="../assets/img/watercolor_1.png">
-        <img src="../assets/img/watercolor_1.png" />
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" />
     </a>
-    <a class="spotlight" href="../assets/img/watercolor_2.png">
-        <img src="../assets/img/watercolor_1.png" />
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" />
     </a>
 </div>
+<!-- Group 2 -->
 <div class="spotlight-group">
-    <a class="spotlight" href="../assets/img/watercolor_3.png">
-        <img src="../assets/img/watercolor_3.png" />
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg" />
     </a>
-    <a class="spotlight" href="../assets/img/watercolor_4.png">
-        <img src="../assets/img/watercolor_4.png" />
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg" />
+    </a>
+    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" />
     </a>
 </div>
