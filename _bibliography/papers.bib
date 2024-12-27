@@ -1,35 +1,38 @@
 ---
 ---
 
-@InProceedings{opinion-dynamics-hardness,
+@inproceedings{opinion-dynamics-hardness,
 abbr={COCOON},
-author={Chan, T.-H. Hubert and Lee, Chui Shan},
-editor={Chen, Chi-Yeh and Hon, Wing-Kai and Hung, Ling-Ju and Lee, Chia-Wei},
-title="On the Hardness of Opinion Dynamics Optimization with $$L_1$$-Budget on Varying Susceptibility to Persuasion",
-booktitle="Computing and Combinatorics (COCOON)",
-year={2021},
-publisher={Springer International Publishing},
-pages={515--527},
-abstract={Recently, Abebe et al. (KDD 2018) and Chan et al. (WWW 2019) have considered 
-an opinion dynamics optimization problem that is based on a popular model for social 
-opinion dynamics, in which each agent has some fixed innate opinion, and a resistance 
-that measures the importance it places on its innate opinion; moreover, the agents 
-influence one another's opinions through an iterative process. Under certain conditions, 
-this iterative process converges to some equilibrium opinion vector. Previous works gave 
-an efficient local search algorithm to solve the unbudgeted variant of the problem, for 
-which the goal is to modify the resistance of any number of agents (within some given range) 
-such that the sum of the equilibrium opinions is minimized. On the other hand, it was proved 
-that the $$L0$$-budgeted variant is NP-hard, where the $$L0$$-budget is a 
-restriction given upfront on the number of agents whose resistance may be modified.\n
-Inspired by practical situations in which the effort to modify an agent's resistance 
-increases with the magnitude of the change, we propose the $$L1$$-budgeted variant, in which
-the $$L1$$-budget is a restriction on the sum of the magnitudes of the changes over all agents' 
-resistance parameters. In this work, we show that the $$L1$$-budgeted variant is NP-hard via a 
-reduction from vertex cover. However, contrary to the $$L0$$-budgeted variant, a very technical 
-argument is needed to show that the optimal solution can be achieved by focusing the given 
-$$L1$$-budget on as small a number of agents as possible, as opposed to spreading the budget over 
-a large number of agents.},
-isbn={978-3-030-89543-3},
+author = {Chan, T.-H. Hubert and Lee, Chui Shan},
+title = {On the Hardness of Opinion Dynamics Optimization with \( L1 \)-Budget on Varying Susceptibility to Persuasion},
+year = {2021},
+isbn = {978-3-030-89542-6},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-030-89543-3_43},
+doi = {10.1007/978-3-030-89543-3_43},
+abstract = {Recently, Abebe et al. (KDD 2018) and Chan et al. (WWW 2019) have considered 
+an opinion dynamics optimization problem that is based on a popular model for social opinion 
+dynamics, in which each agent has some fixed innate opinion, and a resistance that measures 
+the importance it places on its innate opinion; moreover, the agents influence one another’s 
+opinions through an iterative process. Under certain conditions, this iterative process converges 
+to some equilibrium opinion vector. Previous works gave an efficient local search algorithm to 
+solve the unbudgeted variant of the problem, for which the goal is to modify the resistance of 
+any number of agents (within some given range) such that the sum of the equilibrium opinions is 
+minimized. On the other hand, it was proved that the \( L0 \)-budgeted variant is NP-hard, where the 
+\( L0 \)-budget is a restriction given upfront on the number of agents whose resistance may be modified.
+</p><p>
+Inspired by practical situations in which the effort to modify an agent’s resistance increases with 
+the magnitude of the change, we propose the \( L1 \)-budgeted variant, in which the \( L1 \)-budget is a 
+restriction on the sum of the magnitudes of the changes over all agents’ resistance parameters. 
+In this work, we show that the \( L1 \)-budgeted variant is NP-hard via a reduction from the vertex 
+cover problem. However, contrary to the \( L0 \)-budgeted variant, a very technical argument is needed 
+to show that the optimal solution can be achieved by focusing the given \( L1 \)-budget on as small a 
+number of agents as possible, as opposed to spreading the budget over a large number of agents.},
+booktitle = {Computing and Combinatorics: 27th International Conference, COCOON 2021, Tainan, Taiwan, October 24–26, 2021, Proceedings},
+pages = {515–527},
+numpages = {13},
+location = {Tainan, Taiwan}
 arxiv={https://arxiv.org/abs/2105.04105}, 
 slides={../assets/slides/opinion-dynamics-hardness-cocoon2021.pptx}
 }
