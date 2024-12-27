@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-In my leisure time, I find joy in painting. I invite you to explore my recent watercolor creations!
+<!--In my leisure time, I find joy in painting. I invite you to explore my recent watercolor creations!-->
 
 
 <div class="spotlight-group">
@@ -15,7 +15,7 @@ In my leisure time, I find joy in painting. I invite you to explore my recent wa
         <img src="../assets/img/watercolor_1.png" />
     </a>
     <a class="spotlight" href="../assets/img/watercolor_2.png">
-        <img src="../assets/img/watercolor_1.png" />
+        <img src="../assets/img/watercolor_2.png" />
     </a>
 </div>
 <div class="spotlight-group">
