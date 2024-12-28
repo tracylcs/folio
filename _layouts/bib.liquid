@@ -166,6 +166,9 @@
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}<em>{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | split: ','  }}</em>{% endcapture %}
     {% endif %}
+    {% if entry.publisher %}
+      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.publisher }}{% endcapture %}
+    {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}    
