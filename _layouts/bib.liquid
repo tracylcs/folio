@@ -167,7 +167,7 @@
       {% capture entrytype %}{{ entrytype }}<em>{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | split: ','  }}</em>{% endcapture %}
     {% endif %}
     {% if entry.publisher %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.publisher }}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }}{{ entry.publisher }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
@@ -213,9 +213,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"  target="_blank">PDF</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"  target="_blank">PDF</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
